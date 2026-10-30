@@ -32,9 +32,9 @@ from scipy.special import logsumexp
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
 
 
@@ -2865,9 +2865,9 @@ TEST STATUS: POBOLJŠANJE NIJE POTVRĐENO
 DIJAGNOSTIKA: Odvojeni test ne potvrđuje poboljšanje prema kontroli bez poruke.
 
 ZAVRŠNI NEXT REZULTATI
-loto7_4710_k86.csv | NEXT: 8 10 14 22 23 34 37 | TEST POBOLJŠANJE NIJE POTVRĐENO
-loto7_4710_k86_loto_2977.csv | NEXT: 9 22 24 28 29 34 35 | TEST POBOLJŠANJE NIJE POTVRĐENO
-loto7_4710_k86_loto_plus_1733.csv | NEXT: 2 5 10 23 29 34 39 | TEST POBOLJŠANJE NIJE POTVRĐENO
+loto7_4710_k86.csv | NEXT: 8 x 14 y 23 z 37 | TEST POBOLJŠANJE NIJE POTVRĐENO
+loto7_4710_k86_loto_2977.csv | NEXT: 9 x 24 y 29 z 35 | TEST POBOLJŠANJE NIJE POTVRĐENO
+loto7_4710_k86_loto_plus_1733.csv | NEXT: 2 x 10 y 29 z 39 | TEST POBOLJŠANJE NIJE POTVRĐENO
 """
 
 
